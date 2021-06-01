@@ -32,7 +32,7 @@ const filterCandidates = (opportunity, candidatesArray) => {
 
     let gratuated_years = candidates.graduate_date;
 
-    let result = today_date =! gratuated_years;
+    let result = today_date - gratuated_years;
 
     if (
       working_years.length > opportunity.minimum_working_years &&
